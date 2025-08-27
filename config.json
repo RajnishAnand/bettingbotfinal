@@ -1,0 +1,35 @@
+{
+    "clientId": "1410327791634743426",
+    "guildId": "984497573366738964",
+    "developerId": "800445583046213663",
+    "prefix": ".b",
+    "sports": {
+        "football" : {
+            "publicChannel": "1277423457700941854",
+            "name": "Football"
+        },
+        "basketball": {
+            "publicChannel": "1277423941799116904",
+            "name": "Basketball"
+        },
+        "baseball": {
+            "publicChannel": "1277424075609997332",
+            "name": "Baseball"
+        },
+        "hockey": {
+            "publicChannel": "1296248757347684372",
+            "name": "Hockey"
+        },
+        "soccer": {
+            "publicChannel": "1296645308318744627",
+            "name": "Soccer"
+        }
+    },
+    "winChannels": {
+        "mainChannel": "1296179992778244178",
+        "approvalChannel": "1296898153512964157"
+    },
+    "modRole": "1296949363708526734",
+    "modChannelID": "1410303166150606878",
+    "ourPickChannelID": "1296218719613227089"
+}
