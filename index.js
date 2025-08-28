@@ -59,7 +59,7 @@ for (const file of eventFiles) {
 	}
 }
 
-client.login(token).then(() => {
+await client.login(token).then(() => {
 	console.log('Bot is logged in and ready!');
 }).catch(err => {
 	console.error('Failed to log in:', err);
@@ -79,4 +79,5 @@ process.on('uncaughtException', (err) => {
 
 process.on('unhandledRejection', (err) => {
 	console.error('Global unhandled rejection:', err);
+
 });
