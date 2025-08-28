@@ -3,6 +3,7 @@ import config from '../config.json' with {type: 'json'};
 const { winChannels, modRole } = config;
 export const name = Events.InteractionCreate;
 export async function execute(interaction) {
+    console.log("interaction create executed!");
     if (interaction.isButton()) {
         await interaction.deferUpdate();
         const [type, action] = interaction.customId.split('-');
@@ -54,4 +55,5 @@ export async function execute(interaction) {
             // await interaction.reply({ content: 'There was an error while executing this command!', flags: MessageFlags.Ephemeral });
         }
     }
+
 }
