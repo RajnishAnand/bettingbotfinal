@@ -1,28 +1,51 @@
 {
     "clientId": "1410334086987518062",
     "guildId": "1277374204320153681",
-    "developerId": "745688196440129915",
-    "prefix": ".b",
     "sports": {
-        "football" : {
+        "nfl" : {
             "publicChannel": "1277423457700941854",
-            "name": "Football"
+            "name": "NFL Chat",
+            "logo": "football"
         },
-        "basketball": {
+        "ncaafootball" : {
+            "publicChannel": "1277423848496566292",
+            "name": "NCAA Football Chat",
+            "logo": "football"
+        },
+        "nba": {
             "publicChannel": "1277423941799116904",
-            "name": "Basketball"
+            "name": "NBA Chat",
+            "logo": "basketball"
         },
-        "baseball": {
+        "ncaabasketball": {
+            "publicChannel": "1277424133252186122",
+            "name": "NCAA Basketball Chat",
+            "logo": "basketball"
+        },
+        "wnba": {
+            "publicChannel": "1277424413779689512",
+            "name": "WNBA Chat",
+            "logo": "basketball"
+        },
+        "mlb": {
             "publicChannel": "1277424075609997332",
-            "name": "Baseball"
+            "name": "MLB Chat",
+            "logo": "baseball"
         },
-        "hockey": {
+        "nhl": {
             "publicChannel": "1296248757347684372",
-            "name": "Hockey"
+            "name": "NHL Chat",
+            "logo": "hockey"
         },
         "soccer": {
             "publicChannel": "1296645308318744627",
-            "name": "Soccer"
+            "name": "Soccer Chat",
+            "logo": "soccer"
+        },
+        "parlay": {
+            "publicChannel": "1296680832014090240",
+            "name": "Parlays Only",
+            "logo": "cappers"
         }
     },
     "winChannels": {
