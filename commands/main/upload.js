@@ -91,14 +91,15 @@ export async function execute(interaction) {
     }
 
     try {
-        const logoURL = `./assets/logo/${sport}.png`;
+        const sportObj = sports[sport];
+
+        const logoURL = `./assets/logo/${sportObj.logo}.png`;
         const screenshotURL = screenshot.url;
 
         const watermarkBuffer = await createWatermark(screenshotURL, logoURL, handleText);
         const fileName = `watermarked-${Date.now()}.jpg`;
         const attachment = new AttachmentBuilder(watermarkBuffer, { name: fileName });
 
-        const sportObj = sports[sport];
         const contentToSend = `${interaction.user} | \`${interaction.user.id}\` | \`${sportObj.name}\``;
 
         if (win) {
